@@ -1,0 +1,50 @@
+.displayflex-justifycontentcenter {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cursive {
+  font-family: "Rouge Script", cursive;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+p {
+  font-family: "Mandali", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: start;
+  color: #000000;
+  padding: 2vw;
+}
+
+header {
+  background-color: rgb(236, 215, 255);
+  height: 90px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+header nav div div {
+  background-color: rgb(236, 215, 255);
+  padding: 20px;
+  width: 100vw;
+}
+
+.header-space {
+  width: 20vw;
+}
+
+.under-header {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
