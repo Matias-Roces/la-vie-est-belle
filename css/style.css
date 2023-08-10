@@ -1,6 +1,16 @@
-.displayflex-justifycontentcenter {
+.dsflex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dsflex-center {
   display: flex;
   justify-content: center;
+}
+
+.dsflex-around, .row-wrap {
+  display: flex;
+  justify-content: space-around;
 }
 
 * {
@@ -26,17 +36,27 @@ p {
   padding: 2vw;
 }
 
+.row-wrap {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 header {
-  background-color: rgb(236, 215, 255);
+  z-index: 50;
+  background-color: rgba(236, 215, 255, 0.5);
   height: 90px;
+  transition: 0.5s;
   top: 0;
   position: fixed;
   width: 100%;
 }
 header nav div div {
-  background-color: rgb(236, 215, 255);
   padding: 20px;
   width: 100vw;
+}
+
+header:hover {
+  background-color: rgb(236, 215, 255);
 }
 
 .header-space {

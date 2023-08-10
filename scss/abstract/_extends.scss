@@ -1,4 +1,12 @@
-.displayflex-justifycontentcenter {
+.dsflex-between {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;    
+}
+.dsflex-center {
+    display: flex;
+    justify-content: center;    
+}
+.dsflex-around {
+    display: flex;
+    justify-content: space-around;    
 }

@@ -14,3 +14,8 @@ p {
     @include mi-text('Mandali', sans-serif, normal, 20px, start, map-get($map:$palette, $key:negro-basico));
     padding: 2vw;
 }
+.row-wrap {
+    @extend .dsflex-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
